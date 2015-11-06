@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: CaviarDreams; /* Гарнитура шрифта */
+    src: url(../fonts/CaviarDreams.ttf); }
+
+
+header {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    font-family: CaviarDreams;
+    background: rgba(10, 10, 10, 0.7);
+    font-size: 30px;
+    height: 90px;
+    width: 100%;
+}
+
+a {
+ text-decoration: none;
+color: #fd7c1d; 
+ transition: all.6s ease;
+}
+
+a:hover{
+ color: #f2f2f2;
+     transition: all.6s ease;
+}
+
+nav ul li{
+    display: inline;
+}
+
+header nav ul li{
+   
+ padding: 0.3em 0;
+
+}
+
+header nav ul li a:hover{
+    padding: 9px;
+ background-color: #fd7c1d;   
+}
+
+#log a{
+    padding-left: 15px;
+    border-radius: 10px;
+    padding: 10px;
+ background-color: #f2f2f2;  
+}
+
+#log a:hover{
+  border-radius: 10px;
+    padding: 10px;
+ background-color: #fd7c1d;   
+}
+
+#log {
+ position: fixed; top: 1%; right: 2%; 
+    font-size: 25px;
+    padding-right: 10px;   
+}
+
+#ulli {
+ position: fixed;
+    left: 6%;
+}
+
+/*ul li{
+    display: inline;
+    text-decoration: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+}*/
